@@ -1,0 +1,159 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Microsoft YaHei";
+}
+
+#home {
+  background-image: url(./img/top背景-01.png);
+}
+
+.big {
+  background-size: contain;
+  height: 700px;
+  background-repeat: no-repeat;
+}
+
+.top1 ul {
+  display: flex;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  list-style: none;
+}
+
+.top1 ul li {
+  padding: 0.8rem 1.5rem;
+}
+
+.top1 ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #122b53;
+}
+
+.logo1 {
+  width: 150px;
+}
+
+.img1 {
+  width: 35px;
+}
+
+.img2 {
+  width: 50px;
+}
+
+.top1 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 4%;
+}
+
+.top2 {
+  width: 700px;
+  height: 200px;
+  color: #354259;
+  font-weight: bold;
+  text-align: center;
+  line-height: 60px;
+  margin: 150px 0 0 30px;
+}
+
+.top2 h1 {
+  font-size: 60px;
+}
+
+.top2 h2 {
+  font-size: 40px;
+}
+
+.bottom {
+  background-color: #faf0d7;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10%;
+  /* border-bottom: 3px dotted rgb(154, 154, 153); */
+}
+
+.bottom ul {
+  font-size: 1.2rem;
+  margin-top: 30px;
+  list-style: none;
+  display: flex;
+}
+
+.bottom ul li {
+  padding: 0.8rem 1.5rem;
+}
+
+.bottom ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #122b53;
+}
+
+.img3 {
+  width: 30px;
+}
+
+.img4 {
+  width: 60px;
+}
+
+.bottom-1 {
+  background-color: #faf0d7;
+  height: 100px;
+}
+
+.bottom-1 ul {
+  font-size: 1.2rem;
+  margin-top: 30px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-1 ul li {
+  padding: 0.8rem 1.5rem;
+}
+
+.bottom-1 ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #122b53;
+}
+
+.bottom-1 p {
+  text-align: center;
+}
+
+.middle {
+  background-color: white;
+  height: 350px;
+  display: flex;
+  white-space: nowrap;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.fixed-images {
+  display: flex;
+}
+
+.item {
+  flex: 1 1 auto;
+  margin-right: 30px;
+}
+
+.item a {
+  text-decoration: none;
+}
+
+.item img {
+  max-width: 100%;
+  width: 300px;
+}

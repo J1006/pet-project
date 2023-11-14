@@ -1,0 +1,199 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Microsoft YaHei";
+}
+
+.big {
+  background-size: contain;
+  height: 100px;
+  background-repeat: no-repeat;
+}
+
+.top1 ul {
+  display: flex;
+  font-size: 1.2rem;
+  margin-top: 0px;
+  list-style: none;
+}
+
+.top1 ul li {
+  padding: 0.8rem 1.5rem;
+}
+
+.top1 ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #122b53;
+}
+
+.logo1 {
+  width: 150px;
+}
+
+.img1 {
+  width: 35px;
+}
+
+.img2 {
+  width: 50px;
+}
+
+.top1 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 4%;
+}
+
+.banner1 {
+  width: 1400px;
+  padding-left: 70px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content2,
+.clearfix {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1300px;
+}
+
+section.left,
+.clearfix {
+  flex: 1 1 100px;
+}
+
+section.right img {
+  width: 300px;
+}
+
+section.right ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+section.right {
+  flex: 4 1 600px;
+  padding: 20px;
+}
+
+.bottom {
+  background-color: #faf0d7;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10%;
+  /* border-bottom: 3px dotted rgb(154, 154, 153); */
+}
+
+.bottom ul {
+  font-size: 1.2rem;
+  margin-top: 30px;
+  list-style: none;
+  display: flex;
+}
+
+.bottom ul li {
+  padding: 0.8rem 1.5rem;
+}
+
+.bottom ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #122b53;
+}
+
+.img3 {
+  width: 30px;
+}
+
+.img4 {
+  width: 60px;
+}
+
+.bottom-1 {
+  background-color: #faf0d7;
+  height: 100px;
+}
+
+.bottom-1 ul {
+  font-size: 1.2rem;
+  margin-top: 30px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-1 ul li {
+  padding: 0.8rem 1.5rem;
+}
+
+.bottom-1 ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #122b53;
+}
+
+.bottom-1 p {
+  text-align: center;
+}
+
+.text_feed p {
+  color: red;
+}
+
+.img_feed {
+  width: 300px;
+  height: 500px;
+}
+
+section.left ul {
+  list-style: none;
+}
+
+section.left a,
+section.left h3 {
+  text-decoration: none;
+  line-height: 2rem;
+}
+
+section.left a {
+  font-weight: bold;
+  color: #122b53;
+  transition: all 0.3s ease;
+}
+
+.left a:hover,
+.text_feed a:hover {
+  color: rgb(194, 95, 14);
+}
+
+.text_feed a {
+  text-decoration: none;
+  line-height: 1.5rem;
+  color: black;
+  transition: all 0.3s ease;
+}
+#breadcrumb-trail {
+  display: flex;
+  list-style-type: none;
+}
+
+.clearfix {
+  display: flex;
+}
+
+.clearfix ul li,
+.clearfix ul li a {
+  text-decoration: none;
+  line-height: 5rem;
+  padding: 0.3rem 0.3rem;
+  color: #122b53;
+}

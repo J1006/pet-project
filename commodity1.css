@@ -1,0 +1,208 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Microsoft YaHei";
+}
+
+.big {
+  background-size: contain;
+  height: 100px;
+  background-repeat: no-repeat;
+}
+
+.top1 ul {
+  display: flex;
+  font-size: 1.2rem;
+  margin-top: 0px;
+  list-style: none;
+}
+
+.top1 ul li {
+  padding: 0.8rem 1.5rem;
+}
+
+.top1 ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #122b53;
+}
+
+.logo1 {
+  width: 150px;
+}
+
+.img1 {
+  width: 35px;
+}
+
+.img2 {
+  width: 50px;
+}
+
+.top1 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 4%;
+}
+
+.banner1 {
+  width: 1400px;
+  padding-left: 70px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content2,
+.clearfix {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1300px;
+}
+
+section.left,
+.clearfix {
+  flex: 1 1 100px;
+}
+
+section.right {
+  flex: 4 1 600px;
+  padding: 20px;
+}
+
+.bottom {
+  background-color: #faf0d7;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10%;
+  /* border-bottom: 3px dotted rgb(154, 154, 153); */
+}
+
+.bottom ul {
+  font-size: 1.2rem;
+  margin-top: 30px;
+  list-style: none;
+  display: flex;
+}
+
+.bottom ul li {
+  padding: 0.8rem 1.5rem;
+}
+
+.bottom ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #122b53;
+}
+
+.img3 {
+  width: 30px;
+}
+
+.img4 {
+  width: 60px;
+}
+
+.bottom-1 {
+  background-color: #faf0d7;
+  height: 100px;
+}
+
+.bottom-1 ul {
+  font-size: 1.2rem;
+  margin-top: 30px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-1 ul li {
+  padding: 0.8rem 1.5rem;
+}
+
+.bottom-1 ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #122b53;
+}
+
+.bottom-1 p {
+  text-align: center;
+}
+
+section.left ul {
+  list-style: none;
+}
+
+section.left a,
+section.left h3 {
+  text-decoration: none;
+  line-height: 2rem;
+}
+
+section.left a {
+  font-weight: bold;
+  color: #122b53;
+  transition: all 0.3s ease;
+}
+
+.left a:hover {
+  color: rgb(194, 95, 14);
+}
+
+.img_orijen img {
+  width: 500px;
+}
+
+.all {
+  display: flex;
+}
+
+.text_content {
+  padding-left: 50px;
+  line-height: 1.7rem;
+}
+
+.all ul li {
+  list-style-position: inside;
+  list-style-type: disc;
+  color: #122b53;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Price {
+  text-decoration: line-through;
+  color: red;
+}
+
+.Price_2 {
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#breadcrumb-trail {
+  display: flex;
+  list-style-type: none;
+}
+
+.clearfix {
+  display: flex;
+}
+
+.clearfix ul li,
+.clearfix ul li a {
+  text-decoration: none;
+  line-height: 5rem;
+  padding: 0.3rem 0.3rem;
+  color: #122b53;
+}
